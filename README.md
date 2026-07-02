@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# bionizz
 
-## Getting Started
+Site de ferramentas online gratuitas, sem cadastro e sem instalação. Tudo roda no navegador.
 
-First, run the development server:
+## Ferramentas disponíveis
+
+**Conversores**
+- Conversor de Unidades (comprimento, peso, temperatura, área, volume)
+- Conversor de Moedas (taxas ao vivo via open.er-api.com)
+- Codificador Base64 (encode/decode UTF-8)
+
+**Calculadoras**
+- Calculadora de IMC (com classificação e barra visual)
+- Juros Compostos (com aportes mensais e tabela anual)
+- Consumo de Combustível (consumo médio, custo/km, etanol vs gasolina)
+
+**Geradores**
+- Gerador de Senhas (força por entropia, crypto.getRandomValues)
+- Gerador de QR Code (download PNG, cor personalizada)
+- Lorem Ipsum (latim ou português, parágrafos configuráveis)
+
+**Formatadores**
+- Formatador de JSON (formatar, minificar, validar)
+- Formatador de SQL (4 dialetos: SQL, MySQL, PostgreSQL, T-SQL)
+- Formatador de XML (formatar, minificar, validar)
+
+## Stack
+
+- [Next.js 15](https://nextjs.org/) (App Router, geração estática)
+- TypeScript
+- Tailwind CSS
+- Vercel (deploy)
+
+## Desenvolvimento local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto está configurado para deploy na Vercel. Basta conectar o repositório no painel da Vercel — sem nenhuma variável de ambiente necessária.
 
-## Learn More
+## AdSense
 
-To learn more about Next.js, take a look at the following resources:
+Os slots de anúncio estão em `components/AdSlot.tsx` e o script em `app/layout.tsx`. Substitua `ca-pub-XXXXXXXXXXXXXXXX` pelo seu Publisher ID após aprovação no Google AdSense.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## LGPD
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O site inclui banner de consentimento de cookies, política de privacidade e política de cookies, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).

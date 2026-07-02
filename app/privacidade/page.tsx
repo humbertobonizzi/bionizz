@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Política de Privacidade',
-  description: 'Política de privacidade do utilidades.br conforme a LGPD. Saiba como coletamos e usamos suas informações.',
+  description: 'Política de privacidade do bionizz conforme a LGPD. Saiba como coletamos e usamos suas informações.',
 }
 
 export default function PrivacidadePage() {
@@ -21,7 +21,7 @@ export default function PrivacidadePage() {
         <section>
           <h2 className="font-semibold text-xl text-[#1B2B5E] mb-3">1. Quem somos</h2>
           <p className="text-[#6B7280] leading-relaxed">
-            O <strong>utilidades.br</strong> é um site de ferramentas online gratuitas operado por um desenvolvedor independente
+            O <strong>bionizz</strong> é um site de ferramentas online gratuitas operado por um desenvolvedor independente
             com sede no Brasil. Para fins da Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018),
             o operador deste site é o controlador dos dados pessoais aqui descritos.
             Contato: <a href="mailto:[email protected]" className="text-[#00C896] underline">[email protected]</a>.

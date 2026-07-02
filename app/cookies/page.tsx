@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Política de Cookies',
-  description: 'Política de cookies do utilidades.br. Saiba quais cookies usamos e como gerenciá-los.',
+  description: 'Política de cookies do bionizz. Saiba quais cookies usamos e como gerenciá-los.',
 }
 
 export default function CookiesPage() {

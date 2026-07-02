@@ -11,8 +11,8 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mon
 
 export const metadata: Metadata = {
   title: {
-    default: 'utilidades.br — Ferramentas Online Gratuitas',
-    template: '%s | utilidades.br',
+    default: 'bionizz — Ferramentas Online Gratuitas',
+    template: '%s | bionizz',
   },
   description: 'Conversores, calculadoras, geradores e formatadores online gratuitos. Sem cadastro, sem instalação — tudo roda no seu navegador.',
   keywords: ['ferramentas online', 'conversor de unidades', 'calculadora IMC', 'gerador de senhas', 'formatador JSON', 'calculadora de juros', 'QR code'],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    siteName: 'utilidades.br',
+    siteName: 'bionizz',
   },
 }
 

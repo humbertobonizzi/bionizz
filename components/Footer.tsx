@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <span className="text-[#00C896]">●</span>
-              <span className="font-mono-display font-bold text-lg">utilidades.br</span>
+              <span className="font-mono-display font-bold text-lg">bionizz</span>
             </div>
             <p className="text-sm text-[#94A3C8] max-w-xs">Ferramentas online, gratuitas e sem cadastro. Tudo roda no seu navegador.</p>
           </div>
@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-[#2D4080] text-xs text-[#94A3C8]">
-          <p>© {new Date().getFullYear()} utilidades.br — Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} bionizz — Todos os direitos reservados.</p>
           <p className="mt-1">
             Este site exibe anúncios do Google AdSense e usa cookies de terceiros para personalização de publicidade, conforme nossa{' '}
             <Link href="/cookies" className="underline hover:text-white">Política de Cookies</Link>.
