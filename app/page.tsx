@@ -63,9 +63,11 @@ export default function HomePage() {
           </div>
 
           <h1 className="font-mono-display font-bold text-4xl md:text-5xl text-[#1B2B5E] mb-4 leading-tight">
-            Ferramentas online.
+            Sua caixa de ferramentas.
+            <br />
+            Sem instalar nada.
           </h1>
-          <p className="text-lg text-[#6B7280] mb-8">Gratuitas. Sem cadastro. Rodam no seu navegador.</p>
+          <p className="text-lg text-[#6B7280] mb-8">Conversores, calculadoras e geradores que rodam direto no navegador. Grátis, sem cadastro, sem enrolação.</p>
 
           {/* Terminal ticker */}
           <div className="inline-flex items-center gap-1 font-mono-display text-sm text-[#00C896] bg-[#0d1b3e] px-5 py-3 rounded-lg">

@@ -14,6 +14,7 @@ export const tools: Tool[] = [
   { slug: 'calculadora-imc', name: 'Calculadora de IMC', description: 'Calcule seu Índice de Massa Corporal com interpretação detalhada.', category: 'calculadora', icon: '⚖️' },
   { slug: 'calculadora-juros', name: 'Juros Compostos', description: 'Simule investimentos e financiamentos com juros compostos.', category: 'calculadora', icon: '📈' },
   { slug: 'calculadora-combustivel', name: 'Consumo de Combustível', description: 'Calcule consumo médio, custo por km e autonomia do seu veículo.', category: 'calculadora', icon: '⛽' },
+  { slug: 'calculadora-fluxo-caixa', name: 'Fluxo de Caixa', description: 'Organize entradas e saídas e projete seu saldo nos próximos meses.', category: 'calculadora', icon: '💰' },
   { slug: 'gerador-senhas', name: 'Gerador de Senhas', description: 'Crie senhas fortes e aleatórias com configurações personalizadas.', category: 'gerador', icon: '🔐' },
   { slug: 'gerador-qrcode', name: 'Gerador de QR Code', description: 'Gere QR codes para URLs, textos ou contatos. Download em PNG.', category: 'gerador', icon: '📱' },
   { slug: 'gerador-lorem', name: 'Lorem Ipsum', description: 'Gere texto de preenchimento em português ou latim para protótipos.', category: 'gerador', icon: '📝' },
