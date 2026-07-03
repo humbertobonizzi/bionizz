@@ -15,6 +15,7 @@ export const tools: Tool[] = [
   { slug: 'calculadora-juros', name: 'Juros Compostos', description: 'Simule investimentos e financiamentos com juros compostos.', category: 'calculadora', icon: '📈' },
   { slug: 'calculadora-combustivel', name: 'Consumo de Combustível', description: 'Calcule consumo médio, custo por km e autonomia do seu veículo.', category: 'calculadora', icon: '⛽' },
   { slug: 'calculadora-fluxo-caixa', name: 'Fluxo de Caixa', description: 'Organize entradas e saídas e projete seu saldo nos próximos meses.', category: 'calculadora', icon: '💰' },
+  { slug: 'calculadora-ferias-13', name: 'Férias e 13º Salário', description: 'Calcule o valor de férias com 1/3 constitucional e do 13º salário proporcional ou integral.', category: 'calculadora', icon: '🏖️' },
   { slug: 'gerador-senhas', name: 'Gerador de Senhas', description: 'Crie senhas fortes e aleatórias com configurações personalizadas.', category: 'gerador', icon: '🔐' },
   { slug: 'gerador-qrcode', name: 'Gerador de QR Code', description: 'Gere QR codes para URLs, textos ou contatos. Download em PNG.', category: 'gerador', icon: '📱' },
   { slug: 'gerador-lorem', name: 'Lorem Ipsum', description: 'Gere texto de preenchimento em português ou latim para protótipos.', category: 'gerador', icon: '📝' },
@@ -22,6 +23,7 @@ export const tools: Tool[] = [
   { slug: 'formatador-sql', name: 'Formatador de SQL', description: 'Formate queries SQL com indentação e palavras-chave em maiúsculo.', category: 'formatador', icon: '🗄️' },
   { slug: 'formatador-xml', name: 'Formatador de XML', description: 'Formate e valide documentos XML com indentação automática.', category: 'formatador', icon: '</>' },
   { slug: 'conversor-base64', name: 'Codificador Base64', description: 'Encode e decode texto em Base64 instantaneamente no navegador.', category: 'conversor', icon: '🔄' },
+  { slug: 'validador-cpf-cnpj', name: 'Validador de CPF/CNPJ', description: 'Valide CPF e CNPJ pelo dígito verificador ou gere números válidos para testes.', category: 'formatador', icon: '🪪' },
 ]
 
 export const categoryLabels: Record<Category, string> = {
