@@ -19,6 +19,7 @@ export const tools: Tool[] = [
   { slug: 'gerador-senhas', name: 'Gerador de Senhas', description: 'Crie senhas fortes e aleatórias com configurações personalizadas.', category: 'gerador', icon: '🔐' },
   { slug: 'gerador-qrcode', name: 'Gerador de QR Code', description: 'Gere QR codes para URLs, textos ou contatos. Download em PNG.', category: 'gerador', icon: '📱' },
   { slug: 'gerador-lorem', name: 'Lorem Ipsum', description: 'Gere texto de preenchimento em português ou latim para protótipos.', category: 'gerador', icon: '📝' },
+  { slug: 'gerador-paleta-cores', name: 'Gerador de Paleta de Cores', description: 'Gere paletas harmônicas de cores para seus projetos de design.', category: 'gerador', icon: '🎨' },
   { slug: 'formatador-json', name: 'Formatador de JSON', description: 'Formate, valide e minifique JSON com syntax highlighting.', category: 'formatador', icon: '{ }' },
   { slug: 'formatador-sql', name: 'Formatador de SQL', description: 'Formate queries SQL com indentação e palavras-chave em maiúsculo.', category: 'formatador', icon: '🗄️' },
   { slug: 'formatador-xml', name: 'Formatador de XML', description: 'Formate e valide documentos XML com indentação automática.', category: 'formatador', icon: '</>' },
