@@ -22,9 +22,19 @@ export default function PrivacidadePage() {
           <h2 className="font-semibold text-xl text-[#1B2B5E] mb-3">1. Quem somos</h2>
           <p className="text-[#6B7280] leading-relaxed">
             O <strong>bionizz</strong> é um site de ferramentas online gratuitas operado por um desenvolvedor independente
-            com sede no Brasil. Para fins da Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018),
+            com sede no Brasil, construído para fins didáticos e de estudo. Para fins da Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018),
             o operador deste site é o controlador dos dados pessoais aqui descritos.
-            Contato: <a href="mailto:[email protected]" className="text-[#00C896] underline">[email protected]</a>.
+          </p>
+          <p className="text-[#6B7280] leading-relaxed mt-2">
+            O projeto é open source e o código-fonte completo está disponível em{' '}
+            <a href="https://github.com/humbertobonizzi/bionizz" target="_blank" rel="noopener noreferrer" className="text-[#00C896] underline">
+              github.com/humbertobonizzi/bionizz
+            </a>.
+          </p>
+          <p className="text-[#6B7280] leading-relaxed mt-2">
+            Este site foi construído com o auxílio de ferramentas de Inteligência Artificial Generativa. Embora tenhamos revisado
+            o conteúdo e os cálculos das ferramentas, resultados podem eventualmente conter erros. Não utilize as ferramentas
+            deste site como única fonte para decisões financeiras, jurídicas, médicas ou de qualquer outra natureza sensível.
           </p>
         </section>
 
@@ -86,7 +96,10 @@ export default function PrivacidadePage() {
             <li>Oposição ao tratamento</li>
           </ul>
           <p className="text-[#6B7280] leading-relaxed mt-2">
-            Para exercer seus direitos, entre em contato: <a href="mailto:[email protected]" className="text-[#00C896] underline">[email protected]</a>
+            Para exercer seus direitos, entre em contato através do{' '}
+            <a href="https://github.com/humbertobonizzi/bionizz" target="_blank" rel="noopener noreferrer" className="text-[#00C896] underline">
+              repositório do projeto no GitHub
+            </a>.
           </p>
         </section>
 
@@ -127,8 +140,10 @@ export default function PrivacidadePage() {
         <section>
           <h2 className="font-semibold text-xl text-[#1B2B5E] mb-3">10. Contato</h2>
           <p className="text-[#6B7280] leading-relaxed">
-            Para dúvidas sobre esta política ou para exercer seus direitos:{' '}
-            <a href="mailto:[email protected]" className="text-[#00C896] underline">[email protected]</a>
+            Para dúvidas sobre esta política ou para exercer seus direitos, entre em contato através do{' '}
+            <a href="https://github.com/humbertobonizzi/bionizz" target="_blank" rel="noopener noreferrer" className="text-[#00C896] underline">
+              repositório do projeto no GitHub
+            </a>.
           </p>
         </section>
 

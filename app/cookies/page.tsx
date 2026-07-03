@@ -150,8 +150,10 @@ export default function CookiesPage() {
         <section>
           <h2 className="font-semibold text-xl text-[#1B2B5E] mb-3">7. Contato</h2>
           <p className="text-[#6B7280] leading-relaxed">
-            Para dúvidas sobre nossa política de cookies:{' '}
-            <a href="mailto:[email protected]" className="text-[#00C896] underline">[email protected]</a>
+            Para dúvidas sobre nossa política de cookies, entre em contato através do{' '}
+            <a href="https://github.com/humbertobonizzi/bionizz" target="_blank" rel="noopener noreferrer" className="text-[#00C896] underline">
+              repositório do projeto no GitHub
+            </a>.
           </p>
           <p className="text-[#6B7280] leading-relaxed mt-2">
             Veja também nossa <Link href="/privacidade" className="text-[#00C896] underline">Política de Privacidade</Link>.
