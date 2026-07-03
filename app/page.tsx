@@ -58,12 +58,12 @@ export default function HomePage() {
       {/* Hero */}
       <section className="bg-grid relative overflow-hidden py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2.5 mb-6">
+          <div className="flex items-center justify-center gap-2.5 mb-6">
             <LogoMark size={40} />
             <span className="font-mono-display font-bold text-3xl md:text-4xl text-[#1B2B5E] tracking-tight">bionizz</span>
           </div>
 
-          <div className="inline-flex items-center gap-2 bg-white border border-[#E2E6EF] rounded-full px-4 py-1.5 mb-6 shadow-sm">
+          <div className="flex items-center justify-center gap-2 bg-white border border-[#E2E6EF] rounded-full px-4 py-1.5 mb-6 shadow-sm w-fit mx-auto">
             <span className="w-2 h-2 rounded-full bg-[#00C896] animate-pulse" />
             <span className="text-xs font-medium text-[#6B7280]">{tools.length} ferramentas disponíveis</span>
           </div>
