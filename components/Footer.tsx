@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { LogoMark } from './Logo'
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-6">
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-[#00C896]">●</span>
+              <LogoMark size={26} />
               <span className="font-mono-display font-bold text-lg">bionizz</span>
             </div>
             <p className="text-sm text-[#94A3C8] max-w-xs">Ferramentas online, gratuitas e sem cadastro. Tudo roda no seu navegador.</p>
